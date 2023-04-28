@@ -10240,14 +10240,15 @@ element.style {
 }
 
 .collapse-list__collapse-head.collapsed:not(:hover) {
-  color: currentColor;
+  color: #000;
 }
 
 .collapse-list__collapse-head {
-  font-size: 18px;
+  font-family: inherit;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #f14201;
+  color: #000;
   padding: 20px 40px 18px 0;
   position: relative;
   display: block;
@@ -10423,6 +10424,10 @@ padding: ;
   line-height: 1.2em;
   max-height: 2.4em;
 }
+
+
+
+
 
 
 
