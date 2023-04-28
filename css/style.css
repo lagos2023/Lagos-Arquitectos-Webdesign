@@ -528,6 +528,8 @@ progress {
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2); }
+  
+
   .row > * {
     -ms-flex-negative: 0;
     flex-shrink: 0;
@@ -8631,6 +8633,15 @@ textarea.form-control-lg {
 .position-relative {
   position: relative; }
 
+
+
+  .logo img, .footer-logo img{
+    width: 114px;
+  }
+
+
+
+
 .logo {
   font-size: 20px;
   color: #fff;
@@ -9173,10 +9184,11 @@ a {
     content: "";
     position: absolute;
     height: 2px;
-    width: 300%;
+    width: 50%;
     background: #F85D23;
     right: 0;
-    bottom: 0; 
+    bottom: 0;
+    left: 0; 
   }
 
 .sec-1 .img-r {
@@ -9203,7 +9215,8 @@ a {
   font-size: 14px;
   font-weight: bold;
   padding-bottom: 5px;
-  display: inline-block; }
+  display: inline-block; 
+}
   @media (max-width: 767.98px) {
     .sec-2 .heading {
       font-size: 24px;
@@ -9233,10 +9246,12 @@ a {
     content: "";
     position: absolute;
     height: 2px;
-    width: 300%;
+    width: 50%;
     background: #F85D23;
     right: 0;
-    bottom: 0; }
+    bottom: 0;
+    left: 0; 
+  }
 
 .accordion-1 .accordion-item button {
   background-color: transparent !important;
@@ -9318,10 +9333,12 @@ a {
     content: "";
     position: absolute;
     height: 2px;
-    width: 300%;
+    width: 60%;
     background: #F85D23;
     right: 0;
-    bottom: 0; }
+    bottom: 0; 
+    left: 0;
+  }
 
     .sec-4 .heading:after{
       content: "";
@@ -10338,7 +10355,7 @@ element.style {
 
 
 .heading-group .heading{
-color: #000;
+color: #feb900;
 font-size: 35px;
 font-weight: bold;
 text-transform: uppercase;
@@ -10424,6 +10441,16 @@ padding: ;
   line-height: 1.2em;
   max-height: 2.4em;
 }
+
+
+
+.number28{
+  padding: 0px 16px;
+}
+
+
+
+
 
 
 
