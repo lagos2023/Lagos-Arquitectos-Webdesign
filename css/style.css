@@ -9067,12 +9067,16 @@ a {
 .btn {
   padding: 12px 20px;
   border-radius: 0; }
+  
   .btn.btn-primary {
     padding: 8px 50px;
     font-size: 18px;
-    background-color: rgb(41,147,204);
-    color: #ddd;
-    border: 1px solid transparent;
+
+    background-color: #F85D23;
+    color: #ffffff;
+    
+    
+    border: 1px solid #FF681D;
     border-radius: 1px;
     outline: none;
     cursor: pointer;
@@ -9081,10 +9085,12 @@ a {
   
   }
     .btn.btn-primary:hover {
-      background-color: #F85D23;
-      color: #ffffff;
+      background-color: rgb(41,147,204);
+      
+      color: #ddd;
       box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
-      border: 1px solid #F85D23;
+      border: 1px solid transparent;
+      
     }
 
 #overlayer {
@@ -9842,7 +9848,7 @@ a {
   .site-footer .widget {
     margin-bottom: 0px; }
     .site-footer .widget h3, .site-footer .widget .h3 {
-      color: #fff;
+      color: rgb(255, 235, 0);
       font-size: 16px;
       font-weight: 700;
       margin-bottom: 30px; }
@@ -9910,14 +9916,14 @@ a {
        /* =====Araujo backgrouds footer start==========*/ 
       
       .lastingg{
-        background-color: rgb(41,147,204);
+        background-color: #00a1e0;
       }
 
          /* =====Araujo  backgrouds footer end ==========*/ 
 
       .number24
       {
-        background-color: rgb(41,147,204);
+        background-color: #2e3641;
       }
 
       .mb-50{
@@ -9934,6 +9940,100 @@ a {
  /* =====Araujo backgrounds END ==========*/
  
  
+ 
+ 
+ 
+ 
+ /* =====Araujo buttom top start ==========*/
+
+
+ #topBtn{
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background-color: #1a3663;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
+
+#topBtn .fa {
+  fill: #fff;
+  width: 21px;
+}
+
+
+
+
+
+
+
+
+#topBtn .fa {
+  fill: #fff;
+  width: 21px;
+}
+
+svg.fa {
+  fill: #fff;
+  stroke: none;
+  vertical-align: middle;
+  width: 15px;
+}
+svg.fa {
+  fill: #fff;
+  stroke: none;
+  vertical-align: middle;
+  width: 15px;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+    
+
+
+ /* =====Araujo buttom top start ==========*/
+ 
+
+/* =====Araujo buttom top end ==========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  .number23 {
@@ -10249,7 +10349,7 @@ element.style {
 }
 
 .heading-group__text {
-  color: #999;
+  color: #2E3641;
 }
 
 .collapse-list__collapse:not(:last-of-type) {
@@ -10257,7 +10357,7 @@ element.style {
 }
 
 .collapse-list__collapse-head.collapsed:not(:hover) {
-  color: #000;
+  color: #1a3663;
 }
 
 .collapse-list__collapse-head {
@@ -10355,7 +10455,7 @@ element.style {
 
 
 .heading-group .heading{
-color: #feb900;
+color: #1a3663;
 font-size: 35px;
 font-weight: bold;
 text-transform: uppercase;
@@ -10372,9 +10472,11 @@ line-height: 1.2;
 .sec-news button {
   padding: 8px 50px;
   font-size: 18px;
-  background-color: rgb(41,147,204);
-  color: #ddd;
-  border: 1px solid transparent;
+
+  background-color: #FF681D;
+  color: #ffffff;
+  border: 1px solid #F85D23;
+  
   border-radius: 1px;
   outline: none;
   cursor: pointer;
@@ -10384,10 +10486,13 @@ line-height: 1.2;
 
 .me-4 button,
 .sec-news button:hover{
-  background-color: #F85D23;
-  color: #ffffff;
+
+
+  background-color: rgb(41,147,204);
+
+  color: #ddd;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
-  border: 1px solid #F85D23;
+  border: 1px solid transparent;
 }
 
 
@@ -10447,7 +10552,6 @@ padding: ;
 .number28{
   padding: 0px 16px;
 }
-
 
 
 
