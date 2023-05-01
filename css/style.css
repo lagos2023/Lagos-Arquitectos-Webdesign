@@ -9257,26 +9257,30 @@ a {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: #484848;
   border-bottom: none;
   text-transform: uppercase;
   font-size: 12px;
   padding-left: 0;
   padding-right: 0;
   font-weight: bold;
-  color: #ffeb00; }
+  color: #FF681D; }
   .accordion-1 .accordion-item button:after {
     -webkit-filter: brightness(0.5) sepia(1) hue-rotate(29deg) saturate(6);
-    filter: brightness(0.5) sepia(1) hue-rotate(29deg) saturate(6); }
+    filter: brightness(0.5) sepia(1) hue-rotate(358deg) saturate(6) }
+
+    
+    
   .accordion-1 .accordion-item button.collapsed {
     background-color: transparent !important;
-    border-color: rgba(0, 0, 0, 0.1);
+    border-color: #484848;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #FFFFFF; }
+    color: #B78D65; }
 
 .accordion-1 .accordion-collapse {
-  border-top: none; }
+  border-top: none; 
+}
 
 .accordion-1 .accordion-body {
   padding-left: 0;
@@ -9871,13 +9875,41 @@ a {
       display: block;
       margin-bottom: 10px; }
       .site-footer .widget .links li a {
+        color: #FFFFFF;
+        display: block;
+        margin-bottom: 5px;
+        padding: 0;
+        text-align: left;
+        
+        font-weight: normal;
+        text-transform: capitalize;
+        transition: .3s; 
+        transition: all 0.6s ease;
+      }
 
-        color: #FFFFFF; }
+
+
         .site-footer .widget .links li a:hover {
-          transition: all 0.6s ease;
-          padding-left: 10px;
-          text-decoration: underline;
-          color: #feb900; }
+          color: var(--bs-orange);
+          letter-spacing: 1px;
+          box-shadow: none;
+        }
+
+
+        .site-footer .widget .links li a:before{
+          position: relative;
+          content: "\f0da";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          color: yellow;
+          margin-right: 10px;
+        }
+
+
+
+
+
+
   .site-footer .copyright {
     position: relative;
     padding-top: 40px;
@@ -9915,7 +9947,7 @@ a {
 
       .number24
       {
-        background-color: #00a1e0;
+        background-color: #252525 !important;
       }
 
       .mb-50{
@@ -10009,7 +10041,7 @@ svg {
 }
 
 .number24 p{
-  color: #FFFFFF;
+  color: #777777;
 }
 
 .number24-button.accordion-button-collapsed{
