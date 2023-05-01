@@ -10789,6 +10789,7 @@ h4, .h4 {
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 600;
   line-height: 1.2;
+  color: #FF681D;
 }
 
 .container-xxl h1, h2, .h1, .h2, .fw-bold {
@@ -10846,7 +10847,7 @@ h4, .h4 {
   border-width: 5px !important;
 }
 .border-primary {
-  border-color: #B78D65 !important;
+  border-color: #FF681D !important;
 }
 
 
@@ -10857,7 +10858,7 @@ h4, .h4 {
   height: 80%;
   top: 10%;
   left: 20%;
-  border: 5px solid var(--bs-orange);
+  border: 5px solid #FF681D;
   z-index: -1;
 }
 
