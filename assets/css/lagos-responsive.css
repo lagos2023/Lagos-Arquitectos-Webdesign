@@ -1338,8 +1338,8 @@
     }
 
     .main-slider h2 {
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 30px;
+        line-height: 40px;
     }
 
     .main-slider__nav {
@@ -1348,7 +1348,7 @@
 
     .main-slider .container {
         padding-bottom: 150px;
-        padding-top: 140px;
+        padding-top: 340px;
     }
 
     #main-slider-pagination {
