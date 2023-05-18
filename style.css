@@ -1515,8 +1515,7 @@ a:hover, a:active {
 .main-navigation > ul > li:hover > a:before,
 .main-navigation > ul > li.current-menu-item > a:before,
 .main-navigation > ul > li.current-menu-ancestor > a:before {
-  bottom: -4px;
-  opacity: 1;
+
 }
 
 .main-navigation ul ul {
@@ -1928,7 +1927,7 @@ a:hover, a:active {
     content: "";
     font-size: 8px;
     line-height: 1;
-    color: #fff;
+    color: #ffffff;
     font-weight: 500;
   }
   .vertical-main-navigation ul li {
@@ -10282,4 +10281,19 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 }
 
 
+
+
+
+
+
+.mmenu-wrapper  z {
+  padding: 9px 30px 9px 0;
+  display: block;
+  font-size: 14px;
+  color: rgb(225 114 106);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+    letter-spacing: -0.025rem;
+    list-style: none;
+} 
 
