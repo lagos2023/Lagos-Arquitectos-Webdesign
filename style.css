@@ -9607,7 +9607,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     padding-bottom: 18px;
 }
 .services-detail-content .ot-heading h2 {
-    line-height: 60px;
+    line-height: 35px;
 }
 .services-detail-content .simple-slide {
     padding-top: 20px;
@@ -9916,7 +9916,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     margin-bottom: 25px;
 }
 .side-panel-social a {
-    background-color: #2A2A2A;
+    background-color: ;
     font-size: 14px;
     border: 1px solid rgba(255,255,255,.4);
     border-radius: ;
@@ -10331,5 +10331,11 @@ ul.style-default li:last-child, ol.style-default li:last-child {
   
 }
 
+
+
+
+.pheader-service-detail1 {
+  background-image: url(images/page-header/pheader-contact.jpg);
+}
 
 
