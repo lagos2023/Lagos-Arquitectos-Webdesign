@@ -3257,7 +3257,7 @@ a:hover, a:active {
 .widget-area .widget_nav_menu ul li a:hover,
 .widget-area .widget_product_categories ul li a:hover {
   color: #fff;
-  background: #1a1a1a;
+  background: rgb(234, 67, 53);
   text-decoration: none;
 }
 .widget-area .widget_categories ul li a:hover + span.count,
@@ -3271,7 +3271,7 @@ a:hover, a:active {
 }
 .widget-area .widget_nav_menu ul li.current-menu-item a {
   color: #fff;
-  background: #1a1a1a;
+  background: rgb(234, 67, 53);
 }
 
 .widget .recent-news li:not(:last-child) {
