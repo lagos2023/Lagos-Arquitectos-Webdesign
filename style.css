@@ -2334,7 +2334,7 @@ a:hover, a:active {
 .page-title {
   color: #fff;
   font-size: 60px;
-  font-weight: 300;
+  font-weight: 800;
   margin-top: 75px;
   margin-bottom: 10px;
 }
@@ -7144,7 +7144,7 @@ section {
     background-image: url(images/page-header/pheader-portfolio.jpg);
 }
 .pheader-portfolio-detail {
-    background-image: url(images/page-header/pheader-single-portfolio.jpg);
+    background-image: url(images/House\ of\ Silence/background.jpg);
 }
 
 /* Post */
@@ -7976,7 +7976,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     margin-bottom: 0;
 }
 .portfolio-detail-info {
-    background-image: url(images/bg/bg-pinfo.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 50px 50px 50px;
