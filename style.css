@@ -7119,6 +7119,27 @@ section {
 .pheader-service-detail1 {
   background-image: url('images/page-header/pheader-service-detail1.jpg');
 }
+
+.page-header-contactjardim {
+  background-image: url('images/projectojardim/background.jpg');
+}
+
+.page-header-conuntohabitacional {
+  background-image: url('images/conjuntohabitacional/background.jpg');
+}
+
+.page-header-casarodrigues {
+  background-image: url('images/casarodrigues/background.jpg');
+}
+
+.page-header-restaurante {
+  background-image: url('images/restaurante/background.jpg');
+}
+
+.page-header-casaemma {
+  background-image: url('images/casaemma/background.jpg');
+}
+
 .pheader-team {
   background-image: url('images/page-header/pheader-team.jpg');
 }
