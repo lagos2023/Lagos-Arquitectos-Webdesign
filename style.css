@@ -7113,6 +7113,11 @@ section {
 .page-header {
   background-image: url('images/page-header/bg-pheader.jpg');
 }
+
+.page-header-reservatorio {
+  background-image: url('images/Reservatoriodeagua/background.jpg');
+}
+
 .page-header-contact {
   background-image: url('images/page-header/pheader-contact.jpg');
 }
@@ -10355,8 +10360,22 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 
 
 
+
+
+
+
 .pheader-service-detail1 {
   background-image: url(images/page-header/pheader-contact.jpg);
 }
 
 
+
+
+
+/* #DOWNLOAD BROCHURE DOWNLOAD NOW araujo START
+================================================== */
+
+
+
+/* #DOWNLOAD BROCHURE DOWNLOAD NOW araujo END
+================================================== */
