@@ -7118,6 +7118,11 @@ section {
   background-image: url('images/Reservatoriodeagua/background.jpg');
 }
 
+
+.page-header-farmacia {
+  background-image: url('images/farmacia/background.jpg');
+}
+
 .page-header-contact {
   background-image: url('images/page-header/pheader-contact.jpg');
 }
