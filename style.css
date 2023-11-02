@@ -7115,7 +7115,7 @@ section {
 }
 
 .page-header-reservatorio {
-  background-image: url('images/Reservatoriodeagua/background.jpg');
+  background-image: url('images/farmacia/background.jpg');
 }
 
 .page-header-contact {
@@ -10374,8 +10374,176 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 
 /* #DOWNLOAD BROCHURE DOWNLOAD NOW araujo START
 ================================================== */
+.header-details__footer {
+  display: flex;
+  grid-column: 1/-1;
+  grid-row: 3/4;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
 
+.header-container {
+  background-color: #001489;
+  color: #fff;
+  position: relative;
+}
+
+.header-container {
+  background-color: #001489;
+  color: #fff;
+  position: relative;
+}
 
 
 /* #DOWNLOAD BROCHURE DOWNLOAD NOW araujo END
 ================================================== */
+
+
+
+.main-slider__locales {
+  margin-left: auto;
+}
+
+.main-slider__locale {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+.main-slider__locale:after {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-panel__locales {
+  margin-bottom: 76px;
+  transition: all 0.5s 0.4s ease;
+  transform: translateY(3rem);
+  opacity: 1;
+}
+
+.header__menu_opened .menu-panel__locales {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.menu-panel__locale {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.menu-panel__locale:after {
+  display: none;
+}
+
+
+.header__menu_opened .menu-panel__locales {
+  transform: translate(0);
+  opacity: 1;
+}
+
+.menu-panel__locales {
+  margin-bottom: 76px;
+  transition: all 0.5s 0.4s ease;
+  transform: translateY(3rem);
+  opacity: 1;
+}
+
+
+.menu-panel__locale {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.link_active {
+  color: #f24a00;
+}
+.link {
+  color: currentColor;
+  font-family: inherit;
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.main-slider__locales {
+  margin-left: auto;
+}
+
+.main-slider__locale {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+.link_active {
+  color: #f24a00;
+}
+.link {
+  color: currentColor;
+  font-family: inherit;
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.main-slider__locale {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+.link {
+  color: currentColor;
+  font-family: inherit;
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main-slider__locales{
+  bottom: 95rem;
+}
+
