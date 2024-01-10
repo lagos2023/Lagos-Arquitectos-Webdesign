@@ -25,6 +25,20 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); }
 
+
+
+ 
+
+
+  @font-face{
+    font-family: 'zaha hadid sans';
+    src: url(../fonts/Zaha\ Hadid\ Sans.ttf);
+  }
+
+
+
+
+
 *,
 *::before,
 *::after {
@@ -163,7 +177,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #fc5404;
+  color: #fbbe3f;
   text-decoration: underline; }
   a:hover {
     color: #ca4303; }
@@ -9242,7 +9256,7 @@ a {
   padding-left: 0;
   padding-right: 0;
   font-weight: bold;
-  color: #ffeb00; }
+  color: #000; }
   .accordion-1 .accordion-item button:after {
     -webkit-filter: brightness(0.5) sepia(1) hue-rotate(29deg) saturate(6);
     filter: brightness(0.5) sepia(1) hue-rotate(29deg) saturate(6); }
@@ -9251,7 +9265,7 @@ a {
     border-color: rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #FFFFFF; }
+    color: #000; }
 
 .accordion-1 .accordion-collapse {
   border-top: none; }
@@ -9812,7 +9826,7 @@ a {
          /* =====Araujo  backgrouds footer end ==========*/ 
 
       .number24{
-        background-color: #252525;
+        background-color: #f8f9fa;
         
       }
     
@@ -9904,11 +9918,11 @@ svg {
 
 
 .number24 h2{
-  color: #FFFFFF;
+  color: #000;
 }
 
 .number24 p{
-  color: #FFFFFF;
+  color: #7a7a7a;
 }
 
 .number24-button.accordion-button-collapsed{
@@ -10407,20 +10421,205 @@ padding: ;
 
 
 
+.service-section .dots {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../img/bg-dots.png) 0 0 repeat;
+    z-index: -1;
+}
+
+.section-heading h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
+.service-content h3 {
+  margin: 0 0 10px;
+  font-weight: 400;
+  line-height: 1.7;
+  
+  letter-spacing: -0.5px;
+
+  font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #263a4f;
+
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
+    font-size: 1.20rem;
+
+    margin: 0 0 10px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #3d3d3d;
+    letter-spacing: -0.5px;
+}
+
+.padding-15 {
+  padding: 15px;
+}
 
 
 
+.service-section .dots {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url("../../images/Services/bg-dots.png") 0 0 repeat;
+    z-index: -1;
+}
+
+
+.dots {
+  position: absolute;
+  left: -80px;
+  top: 150px;
+  width: 50%;
+  height: 50%;
+  background: url("../../images/Services/bg-dots.png") 0 0 repeat;
+  z-index: -1;
+}
 
 
 
+.service-section .dots {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("../../images/Services/bg-dots.png") 0 0 repeat;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-size: initial;
+  background-repeat: repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  z-index: -1;
+}
+
+
+.service-item {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.padding-15 {
+  padding: 15px;
+}
+
+.service-content {
+  padding: 0 30px 30px 30px;
+  margin-top: 30px;
+}
+
+.service-thumb {
+  overflow: hidden;
+  z-index: -1;
+}
+
+
+a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+img {
+  border: none;
+  outline: none;
+  max-width: 100%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+
+.bg-grey {
+  background-color: #f9fafa;
+}
+
+.service-section {
+  position: relative;
+  z-index: 1;
+}
 
 
 
+.service-content p {
+color: #7a7a7a;
+}
 
 
 
+.service-content .mgt-button i.fa {
+  color: #fbbe3f;
+  margin-bottom: 0;
+}
+
+.fa-arrow-right:before {
+  content: "\f061";
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-left: 0px;
+}
+
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.i.fa {
+  color: #fbbe3f;
+  margin-bottom: 0;
+}
+
+
+.i.fa {
+  color: #FBBE3F;
+  margin-bottom: 20px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 
 
+.service-content .k1 {
+  color: #FBBE3F;
+  cursor: pointer;
+}**
 
 
