@@ -1,6 +1,21 @@
 /*-----------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------*/
+
+
+
+
+@font-face{
+  font-family: 'zaha hadid sans';
+  src: url(../fonts/Zaha\ Hadid\ Sans.ttf);
+}
+
+
+
+
+
+
+
 .ares.tparrows {
   cursor:pointer;
   background:#fff;
